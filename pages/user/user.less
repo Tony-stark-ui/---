@@ -1,0 +1,122 @@
+page {
+  background-color: #efefef;
+}
+.user-info-wrap {
+  position: relative;
+  height: 45vh;
+  overflow: hidden;
+  position: relative;
+
+  .user-info {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    .user-icon {
+      width: 150rpx;
+      height: 150rpx;
+      border-radius: 50%;
+    }
+    .user-name {
+      color: #290202;
+      margin-top: 40rpx;
+      font-size: 30rpx;
+    }
+}
+  .user-bg {
+    width: 100vw;
+    height: 45vh;
+    // 高斯模糊
+    filter: blur(5px);
+  }
+  .user-btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+    border: 1rpx solid greenyellow;
+    font-size: 38rpx;
+    border-radius: 10rpx;
+    padding: 20rpx 40rpx;
+  }
+}
+.user-content {
+  position: relative;
+  .user-main {
+    padding-bottom: 100rpx;
+    color: #666;
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -40rpx;
+    .history-wrap {
+      background-color: #fff;
+      display: flex;
+     
+      navigator {
+        flex: 1;
+        text-align: center;
+        padding: 20rpx 0;
+         .his-num {
+          color: var(--themeColor);
+      }
+      .his-name {
+
+      }
+      }
+     
+    }
+    .orders-warp {
+      background-color: #fff;
+      margin-top: 30rpx;
+      .order-title {
+        padding: 20rpx;
+        border-bottom: 1rpx solid #efefef;
+      }
+      .order-content {
+        display: flex;
+        navigator {
+          padding: 15rpx 0;
+          flex: 1;
+          text-align: center;
+          .iconfont {
+            color: var(--themeColor);
+            font-size: 50rpx;
+            margin-bottom: 10rpx;
+          }
+          .order-name {
+
+          }
+        }
+      }
+      
+    }
+    .adress-wrap {
+      margin-top: 30rpx;
+      padding: 20rpx;
+      background-color: #fff;
+     
+    }
+    .app-info-wrap {
+      
+      margin-top: 30rpx;
+      background-color: #fff;
+    
+      .app-info-item {
+        border-bottom: 1px solid #efefef;
+        padding: 20rpx ;
+      }
+      .app-info-contact {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+    .recommend-wrap {
+      margin-top: 30rpx;
+      padding: 20rpx;
+      background-color: #fff;
+    }
+  }
+}

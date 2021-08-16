@@ -1,0 +1,47 @@
+page {
+  background-color: #efefef;
+}
+.fb-main {
+  padding: 20rpx;
+  color: #666;
+}
+.fb-main .fb-tips {
+  display: flex;
+  flex-wrap: wrap;
+}
+.fb-main .fb-tips text {
+  width: 30%;
+  padding: 10rpx ;
+  text-align: center;
+  background-color: #fff;
+  margin: 20rpx 10rpx 0rpx;
+}
+.fb-main .fb-content {
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+.fb-main .fb-content textarea {
+  padding: 20rpx;
+}
+.fb-main .fb-content .fb-tool {
+  display: flex;
+  flex-wrap: wrap;
+}
+.fb-main .fb-content .fb-tool button {
+  width: 90rpx;
+  height: 90rpx;
+  font-size: 40rpx;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 20rpx 20rpx;
+  margin-top: 20rpx;
+}
+.fb-main .fb-content .fb-tool .up-img-item {
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.fb-main .form {
+  margin-top: 30rpx;
+}

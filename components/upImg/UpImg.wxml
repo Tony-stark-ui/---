@@ -1,0 +1,4 @@
+<view class="up-img-wrap">
+<image mode="widthFix" src="{{src}}"></image>
+<icon type="clear" color="red"></icon>
+</view>
